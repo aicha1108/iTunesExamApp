@@ -13,6 +13,17 @@
 		4E4FE181222BB81D005648A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4FE17F222BB81D005648A6 /* Main.storyboard */; };
 		4E4FE183222BB828005648A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4FE182222BB828005648A6 /* Assets.xcassets */; };
 		4E4FE186222BB828005648A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4FE184222BB828005648A6 /* LaunchScreen.storyboard */; };
+		4E4FE191222BB908005648A6 /* SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4FE18F222BB908005648A6 /* SkeletonView.framework */; };
+		4E4FE192222BB908005648A6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4FE190222BB908005648A6 /* Alamofire.framework */; };
+		4E4FE19A222BB95B005648A6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE199222BB95B005648A6 /* NetworkManager.swift */; };
+		4E4FE19C222BB982005648A6 /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE19B222BB982005648A6 /* WebClient.swift */; };
+		4E4FE19E222BB9AA005648A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE19D222BB9AA005648A6 /* Constants.swift */; };
+		4E4FE1A0222BBDDB005648A6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE19F222BBDDB005648A6 /* APIClient.swift */; };
+		4E4FE1A3222BBFA0005648A6 /* iTunesTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE1A2222BBFA0005648A6 /* iTunesTrack.swift */; };
+		4E4FE1A6222BD36D005648A6 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE1A5222BD36D005648A6 /* TrackTableViewCell.swift */; };
+		4E4FE1A9222BD64B005648A6 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE1A8222BD64B005648A6 /* UIViewController+Ext.swift */; };
+		4E4FE1AB222BEB79005648A6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE1AA222BEB79005648A6 /* DataStore.swift */; };
+		4E4FE1CE222BFB19005648A6 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FE1CD222BFB19005648A6 /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		4E4FE182222BB828005648A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E4FE185222BB828005648A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4FE187222BB828005648A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4FE18F222BB908005648A6 /* SkeletonView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkeletonView.framework; path = Carthage/Build/iOS/SkeletonView.framework; sourceTree = "<group>"; };
+		4E4FE190222BB908005648A6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		4E4FE199222BB95B005648A6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4E4FE19B222BB982005648A6 /* WebClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		4E4FE19D222BB9AA005648A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E4FE19F222BBDDB005648A6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		4E4FE1A2222BBFA0005648A6 /* iTunesTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesTrack.swift; sourceTree = "<group>"; };
+		4E4FE1A5222BD36D005648A6 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		4E4FE1A8222BD64B005648A6 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		4E4FE1AA222BEB79005648A6 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		4E4FE1CD222BFB19005648A6 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4FE191222BB908005648A6 /* SkeletonView.framework in Frameworks */,
+				4E4FE192222BB908005648A6 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +66,7 @@
 			children = (
 				4E4FE178222BB81D005648A6 /* iTunesExamApp */,
 				4E4FE177222BB81D005648A6 /* Products */,
+				4E4FE18E222BB908005648A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +82,80 @@
 			isa = PBXGroup;
 			children = (
 				4E4FE179222BB81D005648A6 /* AppDelegate.swift */,
-				4E4FE17B222BB81D005648A6 /* MasterViewController.swift */,
-				4E4FE17D222BB81D005648A6 /* DetailViewController.swift */,
+				4E4FE1A1222BBF66005648A6 /* Model */,
+				4E4FE1A4222BD34B005648A6 /* Views */,
+				4E4FE1AC222BECD9005648A6 /* ViewControllers */,
+				4E4FE193222BB922005648A6 /* Helpers */,
 				4E4FE17F222BB81D005648A6 /* Main.storyboard */,
 				4E4FE182222BB828005648A6 /* Assets.xcassets */,
 				4E4FE184222BB828005648A6 /* LaunchScreen.storyboard */,
 				4E4FE187222BB828005648A6 /* Info.plist */,
 			);
 			path = iTunesExamApp;
+			sourceTree = "<group>";
+		};
+		4E4FE18E222BB908005648A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE190222BB908005648A6 /* Alamofire.framework */,
+				4E4FE18F222BB908005648A6 /* SkeletonView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E4FE193222BB922005648A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE19D222BB9AA005648A6 /* Constants.swift */,
+				4E4FE1AA222BEB79005648A6 /* DataStore.swift */,
+				4E4FE194222BB922005648A6 /* Networking */,
+				4E4FE1A7222BD61E005648A6 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4E4FE194222BB922005648A6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE199222BB95B005648A6 /* NetworkManager.swift */,
+				4E4FE19B222BB982005648A6 /* WebClient.swift */,
+				4E4FE19F222BBDDB005648A6 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4E4FE1A1222BBF66005648A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE1A2222BBFA0005648A6 /* iTunesTrack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4FE1A4222BD34B005648A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE1A5222BD36D005648A6 /* TrackTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E4FE1A7222BD61E005648A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE1A8222BD64B005648A6 /* UIViewController+Ext.swift */,
+				4E4FE1CD222BFB19005648A6 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E4FE1AC222BECD9005648A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FE17B222BB81D005648A6 /* MasterViewController.swift */,
+				4E4FE17D222BB81D005648A6 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +168,7 @@
 				4E4FE172222BB81D005648A6 /* Sources */,
 				4E4FE173222BB81D005648A6 /* Frameworks */,
 				4E4FE174222BB81D005648A6 /* Resources */,
+				4E4FE18D222BB8CB005648A6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,14 +225,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E4FE18D222BB8CB005648A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SkeletonView.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SkeletonView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E4FE172222BB81D005648A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4FE1A9222BD64B005648A6 /* UIViewController+Ext.swift in Sources */,
+				4E4FE19A222BB95B005648A6 /* NetworkManager.swift in Sources */,
+				4E4FE1A3222BBFA0005648A6 /* iTunesTrack.swift in Sources */,
+				4E4FE1CE222BFB19005648A6 /* Date+Ext.swift in Sources */,
+				4E4FE1A0222BBDDB005648A6 /* APIClient.swift in Sources */,
+				4E4FE1AB222BEB79005648A6 /* DataStore.swift in Sources */,
 				4E4FE17E222BB81D005648A6 /* DetailViewController.swift in Sources */,
+				4E4FE1A6222BD36D005648A6 /* TrackTableViewCell.swift in Sources */,
 				4E4FE17C222BB81D005648A6 /* MasterViewController.swift in Sources */,
 				4E4FE17A222BB81D005648A6 /* AppDelegate.swift in Sources */,
+				4E4FE19C222BB982005648A6 /* WebClient.swift in Sources */,
+				4E4FE19E222BB9AA005648A6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +412,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iTunesExamApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +434,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iTunesExamApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

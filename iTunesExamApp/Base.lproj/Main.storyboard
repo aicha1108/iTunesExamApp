@@ -79,6 +79,7 @@
                     <navigationItem key="navigationItem" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="lbTrackName" destination="k5Y-EB-9zX" id="qw9-Ip-txX"/>
+                        <outlet property="lblDescriptionTitle" destination="Keb-7K-QSB" id="Kne-JW-7Et"/>
                         <outlet property="txtDetailDesription" destination="yei-Ge-Yjq" id="IIF-jc-ZIL"/>
                     </connections>
                 </viewController>
@@ -184,6 +185,7 @@
                                     <outlet property="lblGenre" destination="Rns-Bg-RPU" id="Cp1-La-vGF"/>
                                     <outlet property="lblPrice" destination="HpE-zO-Yz5" id="Rg0-WR-7TP"/>
                                     <outlet property="lblTrackName" destination="u1K-B7-D8Y" id="V1H-Ci-33T"/>
+                                    <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showDetail" id="LHK-3j-AE7"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -194,9 +196,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Track Lists" id="Zdf-7t-Un8"/>
-                    <connections>
-                        <segue destination="vC3-pB-5Vb" kind="show" identifier="showDetail" id="fc1-aF-AKZ"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
@@ -220,6 +219,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fc1-aF-AKZ"/>
+        <segue reference="LHK-3j-AE7"/>
     </inferredMetricsTieBreakers>
 </document>

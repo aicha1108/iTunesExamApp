@@ -161,9 +161,5 @@ class MasterViewController: UITableViewController {
         
         return vw
     }
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "showDetail", sender: nil)
-    }
 }
 
